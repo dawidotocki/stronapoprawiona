@@ -1,0 +1,223 @@
+body
+{
+	background-color:black;
+	
+}
+
+
+nav
+{
+	position: relative; z-index: 2;
+		
+		
+background:linear-gradient(to bottom, black ,#94E735 , #33AC18 , #94E735, black );
+	text-align: center;
+	
+
+	
+}
+
+nav > ol
+{
+
+font-weight:bold;
+	list-style-type: none;
+	height: auto;
+	display: inline-block;
+}
+
+ul 
+{
+	
+	color:white;
+}
+
+
+nav > ol > li
+{
+	
+	float: left;
+	width: 220px;
+	height:auto;
+	
+}
+
+nav > ol > li > a
+{
+font-family:Helvetica, sans-serif;
+text-decoration:none;
+padding-top:5px;
+color:black;
+text-align: center;
+display: block;
+font-size:18px;
+border-left: double 5px black;
+
+
+}
+
+nav > ol > li:hover
+{
+	background-color: black;
+}
+
+nav > ol > li:hover> a
+
+{
+	color:white;
+}
+
+nav > ol > li > ul {
+position: absolute;
+  list-style-type:none;
+	text-align:left;
+}
+
+nav > ol > li > ul {
+background-color:green;
+ display:none;
+
+}
+
+@media screen and (max-width: 480px) {
+  nav > ol > li > ul {
+background-color:green;
+ display:block;
+ position:relative;
+
+}
+}
+
+nav > ol > li > ul > li{
+background-color:black;
+ 
+
+
+
+}
+nav > ol > li > ul > li:hover{
+	position: relative;
+background-color:green;
+
+}
+
+nav > ol > li > ul > li:hover a{
+color:#000000;
+}
+nav > ol > li > ul > li a{
+text-decoration:none;
+font-family:Helvetica, sans-serif;
+color:white;
+
+}
+
+nav > ol > li:hover > ul {
+  display:block;
+}
+
+.lewy
+{
+	float:left;
+	width:29%;
+	margin:0 10px 0 10px;
+	
+	
+}
+
+@media screen and (max-width: 480px) {
+.lewy
+{
+	float:left;
+	width:100%;
+	margin:0 10px 0 10px;
+	
+	
+}
+}
+
+
+.prawy
+{
+	float:left;
+	width:29%;
+	margin:0 10px 0 10px;
+	
+	
+}
+@media screen and (max-width: 480px) {
+.prawy
+{
+	float:left;
+	width:100%;
+	margin:0 10px 0 10px;
+	
+	
+}
+}
+
+aside
+{
+	float:right;
+	width:39%;
+	box-shadow: -10px 0 30px grey;
+	
+
+	
+}
+.pietro
+{
+	float:left;
+	width:auto;
+	
+}
+.opismapy
+{
+	float:left;
+	width:40%;
+	
+}
+.obrazmapy
+{
+	float:right;
+	width:50%;
+	box-shadow: -10px 0 30px grey;
+	
+}
+
+@media screen and (max-width: 480px) {
+.opismapy
+{
+	float:left;
+	width:100%;
+	
+}
+}
+
+
+
+footer
+{
+	text-align: center;
+	background-color: #1f1f1f;
+	padding: 10px;
+	color: white;
+	font-size: 15px;
+	
+}
+
+.clearfix {
+    
+	clear:both;
+	
+}
+
+
+.logo
+{
+float:right;
+}
+
+h1,p
+{
+	color:white;	
+}
